@@ -2,10 +2,9 @@ def starts_with_a_vowel?(word)
   words = ["airy", "ariel", "Evening", "goof"]
   if words.grep(/\b[AEIOUaeiou][a-z]*\b/)
     return true
-  else
+  else !(words.grep(/\b[AEIOUaeiou][a-z]*\b/))
     return false
   end
-  return false
 end
 
 def words_starting_with_un_and_ending_with_ing(text)
