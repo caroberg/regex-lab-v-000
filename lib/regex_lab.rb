@@ -1,5 +1,6 @@
 def starts_with_a_vowel?(word)
-  "Aloof Kharoof ate all the alfalfa.".scan(/^\w\[aeiou AEIOU]/)
+  words = ["airy", "ariel", "evening", "goof"]
+  return words.grep(/^\w+[aeiou]/)
 end
 
 def words_starting_with_un_and_ending_with_ing(text)
