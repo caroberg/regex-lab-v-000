@@ -2,7 +2,7 @@ def starts_with_a_vowel?(word)
   word = ["airy", "ariel", "Evening", "goof"]
   if word.grep(/\b[AEIOUaeiou][a-z]*\b/)
     return true
-  else 
+  else
     return false
   end
 end
