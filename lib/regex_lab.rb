@@ -1,5 +1,5 @@
 def starts_with_a_vowel?(word)
-  words = ["airy", "ariel", "evening", "goof"]
+  words = ["airy", "ariel", "Evening", "goof"]
   return words.scan(/\b[AEIOUaeiou][a-z]*\b/)
 end
 
