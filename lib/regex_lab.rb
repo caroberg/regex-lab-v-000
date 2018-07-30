@@ -19,7 +19,11 @@ end
 
 def first_word_capitalized_and_ends_with_punctuation?(text)
   text = "Question: To be or not to be?"
-  text.match(/\A[A-Z[[:punct:]]]/)
+  if text.match(/\A[A-Z[[:punct:]]]/)
+    return true
+  else
+    false
+  end
 end
 
 def valid_phone_number?(phone)
