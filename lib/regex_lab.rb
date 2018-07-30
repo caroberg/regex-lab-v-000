@@ -18,7 +18,8 @@ def words_five_letters_long(text)
 end
 
 def first_word_capitalized_and_ends_with_punctuation?(text)
-
+  text = "Question: To be or not to be?"
+  text.scan(/\A[A-Z]$\S/)
 end
 
 def valid_phone_number?(phone)
